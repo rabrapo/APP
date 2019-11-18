@@ -30,7 +30,7 @@
     <security:intercept-url pattern="/secure/compras/gestion_proveedores.jsp" access="ROLE_A, ROLE_GCP"></security:intercept-url>
 
     <security:intercept-url pattern="/secure/nominas/gestion_nominas.jsp" access="ROLE_GNT"></security:intercept-url>
-    <security:intercept-url pattern="/secure/nominas/trabajadores.jsp" access="ROLE_A, ROLE_GNT"></security:intercept-url>
+    <security:intercept-url pattern="/secure/nominas/gestion_trabajadores.jsp" access="ROLE_A, ROLE_GNT"></security:intercept-url>
 
     <security:intercept-url pattern="/secure/ventas/gestion_clientes.jsp" access="ROLE_GCFP"></security:intercept-url>
     <security:intercept-url pattern="/secure/ventas/gestion_facturas.jsp" access="ROLE_GCFP"></security:intercept-url>
